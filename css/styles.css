@@ -1,146 +1,189 @@
-/* Globale elements */
+/*---------------------header-------------------- */
 body{
-font-family: sans-serif;
-margin:0;
-padding:0;
+  font-family: 'Montserrat', sans-serif;
 }
-a, a:link {
-  font-size: 1em;
-  text-decoration: none;
 
-}
-p{
-  font-size: 1em;
-}
 h1{
-font-size:3em;
-
+  font-size: 3em;
 }
 h2{
-font-size:2.5em;
+  font-size: 2em;
 }
 h3{
-font-size:1.2em;
-font-weight: 100;
-text-transform: uppercase;
+  font-size: 1.5em;
 }
 h4{
-font-size: 1.4em;
+  font-size: 1.2em;
 }
-h5{
-
+p{
+  font-weight: 100;
 }
-
-/* Wrapper container */
-
-.wrapper{
-width:960px;
-margin:auto;
+button{
+  border: none;
 }
 
-/* Floating objects whit classe .clear */
+/*---------------------Titel im verschiede hintergrund farben-------------------- */
 
-.float-left{
-  float: left;
-}
-.float-right{
-  float:right;
-}
-.clear{
-clear: both;
-}
-
-
-/*---------------------header-------------------- */
-
-header{
-width:100%;
-height:600px;
-
-background-size: auto;
-
-background-image:url(../images/header.jpg) ;
-background-repeat: no-repeat;
-}
-
-#menu-bar{
-	width:100%;
-	height:auto;
-	background-color:#bed623;
-  margin-bottom: 100px;
-}
-
-/*-----Logo----- */
-#seite-titel{
-
-
-
-}
-#seite-titel h3{
-    margin: 0;
-	  color: white;
-		padding: 14px 0 14px 16px;
-
-}
-
-/*---------------------Banner-------------------- */
-#banner-msg{
-	padding: 50px 0;
-}
-.banner-msg{
-
-  width: 30%;
-  padding:0 15px;
-  background-color:#bed623;
-  color: white;
+/* Algemeine classen mit Text styles */
+.text-styles{
   letter-spacing: 3px;
+  padding: 10px 15px;
+}
+.text-styles-p{
+  letter-spacing: 1px;
   line-height: 1.6;
-  margin: 5px auto;
-  text-align: center;
 }
-.black{
-  background-color:black;
-  width: 40%;
-}
-
-#banner-msg button{
-
-  height: auto;
-  background-color:#bed623;
+.text-color-white{
   color: white;
-  padding: 15px 25px;
-
-
-
 }
-#banner-msg button h4{
-  margin: 0;
-}
-
-/*-----Haupt-nav----- */
-
-#haupt-nav{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-	float: right;;
-}
-
-#haupt-nav li {
-  float: left;
-	display: inline-block;
-}
-
-#haupt-nav li a {
-  display: block;
-  color: #596412;
+.text-center{
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+}
+.text-transform{
+  text-transform: uppercase;
+}
+/* Algemeine classen mit Hintergrund Farbe */
+.text-green{
+  background-color: #bed623;
+}
+.text-black{
+  background-color: black;
+}
+.text-red{
+  background-color: red;
+}
+.text-white{
+  background-color: white;
 }
 
-/* Change the link color to #111 (black) on hover */
-#haupt-nav li a:hover {
-  background-color: #111;
+/* Algemeine classen mit Margins und Paddings*/
+.margin-top-100{
+  margin-top: 100px;
+}
+.margin-top-10{
+  margin-top: 15px;
+}
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.margin-bottom-50{
+  margin-bottom: 50px;
+}
+
+.padding-top-50{
+  padding-top: 50px;
+}
+.padding-bottom-100{
+  padding-bottom: 100px;
+}
+/* Algemeine Display classen */
+.display-block{
+  display: block;
+}
+/* Algemeine Border box classen */
+
+
+/* Header bereich */
+header{
+
+height:600px;
+background-size: cover;
+background-image:url(../images/header.jpg) ;
+}
+.navbar{
+  background-color: #bed623;
+  color: #444c0e;
+}
+
+/* Logo */
+#logo{
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+#logo h3{
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+/* Haupt Menu */
+#haupt-nav{
+  display: none;
+}
+/* Menu Icon */
+.menu-icon{
+  margin: 10px 0;
+}
+.bar{
+  width: 30px;
+  height: 3px;
+  background-color: #444c0e;
+  margin: 6px 0;
+}
+
+
+/* Banner */
+#banner-content{
+}
+#banner-content button{
+  width: 100%;
+  margin-left: 160%;
+}
+
+/* ID Berufsbild */
+#berufsbild{
+}
+.berufsbild-text{
+  width: 151px;
+}
+.berufsbild-text-02{
+  width: 406px;
+}
+.berufsbild-text-03{
+  color: black;
+  padding-left: 0;
+}
+
+
+/* ID Berufsbild */
+#welche-berufe{
+  height: 500px;
+  background-size: cover;
+  background-image:url(../images/WelcheBerufe.jpg) ;
+}
+.welche-berufe-titel{
+  padding: 15px 0 0;
+  height: 50px;
+}
+.welche-berufe-list{
+
+  display: none;
+}
+#welche-berufe h3{
+  width: 345px;
+  margin: auto;
+}
+
+/* ID schulischen */
+#schulischen, h3, h4, p{
+  margin: 10px;
+  
+
+  /* ID schulischen: Titel*/
+}
+.padding-left-0{
+  padding-left: 0;
+}
+.width-01{
+  width: 620px;
+}
+.width-02{
+  width: 336px;
+}
+/* ID schulischen: Blocks*/
+.box-border{
+  height: 300px;
+
+
+
+  background-color: lightgrey;
 }
