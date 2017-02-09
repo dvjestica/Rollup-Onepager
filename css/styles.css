@@ -16,6 +16,7 @@ h4{
   font-size: 1.2em;
 }
 p{
+  font-size: 1em;
   font-weight: 100;
 }
 button{
@@ -27,7 +28,7 @@ button{
 /* Algemeine classen mit Text styles */
 .text-styles{
   letter-spacing: 3px;
-  padding: 10px 15px;
+  padding: 7px 15px;
 }
 .text-styles-p{
   letter-spacing: 1px;
@@ -43,34 +44,47 @@ button{
   text-transform: uppercase;
 }
 /* Algemeine classen mit Hintergrund Farbe */
-.text-green{
+.background-green{
   background-color: #bed623;
 }
-.text-black{
+.background-black{
   background-color: black;
 }
-.text-red{
+.background-red{
   background-color: red;
 }
-.text-white{
+.background-white{
   background-color: white;
+}
+.background-lightgray{
+  background-color: lightgray;
 }
 
 /* Algemeine classen mit Margins und Paddings*/
+.margin-auto{
+  margin: auto;
+}
 .margin-top-100{
   margin-top: 100px;
 }
-.margin-top-10{
+.margin-top-15{
   margin-top: 15px;
 }
 .margin-top-50{
   margin-top: 50px;
 }
-
+.margin-bottom-15{
+  margin-bottom: 15px;
+}
 .margin-bottom-50{
   margin-bottom: 50px;
 }
-
+.margin-bottom-100{
+  margin-bottom: 100px;
+}
+.margin-left-0{
+  margin-left: 0;
+}
 .padding-top-50{
   padding-top: 50px;
 }
@@ -81,10 +95,19 @@ button{
 .display-block{
   display: block;
 }
+.display-inline-block{
+  display: inline-block;
+}
+.display-inline{
+  display:inline;
+}
+.padding-left-15{
+  padding-left: 15px;
+}
 /* Algemeine Border box classen */
 
 
-/* Header bereich */
+/* Header bereich ------------------------------- */
 header{
 
 height:600px;
@@ -93,56 +116,73 @@ background-image:url(../images/header.jpg) ;
 }
 .navbar{
   background-color: #bed623;
-  color: #444c0e;
+
 }
 
-/* Logo */
+/* Logo ------------------------------- */
 #logo{
-  margin-top: 14px;
+  margin-top: 18px;
   text-transform: uppercase;
 }
-#logo h3{
-  font-weight: 100;
-  letter-spacing: 3px;
-}
-/* Haupt Menu */
+
+/* Haupt Menu ------------------------------- */
 #haupt-nav{
   display: none;
 }
-/* Menu Icon */
+
+/* Menu Icon ------------------------------- */
 .menu-icon{
   margin: 10px 0;
+  text-align: -webkit-right;
 }
 .bar{
-  width: 30px;
-  height: 3px;
-  background-color: #444c0e;
+  width: 45px;
+  height: 6px;
+  background-color: black;
   margin: 6px 0;
 }
 
 
-/* Banner */
+/* Banner ------------------------------- */
 #banner-content{
 }
-#banner-content button{
-  width: 100%;
-  margin-left: 160%;
+.banner-msg-01{
+
+}/* Iss' mal */
+
+.banner-msg-02{
+
+}/* was anderes */
+.banner-button{
+
+  left: 37%;
+  bottom: 0;
+  position: absolute;
 }
+.banner-button-child{
+  width: 250%;
+
+
+
+}
+
 
 /* ID Berufsbild */
 #berufsbild{
 }
 .berufsbild-text{
-  width: 151px;
+
 }
 .berufsbild-text-02{
-  width: 406px;
+
 }
 .berufsbild-text-03{
-  color: black;
+
   padding-left: 0;
 }
+.banner-button{
 
+}
 
 /* ID Berufsbild */
 #welche-berufe{
@@ -159,31 +199,43 @@ background-image:url(../images/header.jpg) ;
   display: none;
 }
 #welche-berufe h3{
-  width: 345px;
-  margin: auto;
+
 }
 
 /* ID schulischen */
-#schulischen, h3, h4, p{
-  margin: 10px;
-  
+#schulischen{
 
-  /* ID schulischen: Titel*/
 }
 .padding-left-0{
   padding-left: 0;
 }
-.width-01{
-  width: 620px;
+.box p{
+  margin: 15px 0 15px 0;
+
 }
-.width-02{
-  width: 336px;
+.box h3{
+  margin: 15px 0 15px 0;
+
+}
+.box h4{
+  margin: 15px 0 15px 0;
+
+}
+.box{
+  height: 620px;
+}
+.box-01{
+
+}
+.box-02-p{
+  padding-bottom: 20px;
+}
+.box-02-verkehr{
+
 }
 /* ID schulischen: Blocks*/
 .box-border{
-  height: 300px;
 
-
-
-  background-color: lightgrey;
 }
+
+/* ID schulischen: Font Awesome*/
