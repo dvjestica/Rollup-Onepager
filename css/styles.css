@@ -23,7 +23,16 @@ button{
   border: none;
 }
 
-/*---------------------Titel im verschiede hintergrund farben-------------------- */
+/*---------------------
+Titel im verschiede hintergrund farben
+-------------------- */
+
+/* List styles*/
+.column-count{
+
+  
+}
+
 
 /* Algemeine classen mit Text styles */
 .text-styles{
@@ -73,6 +82,9 @@ button{
 .margin-top-50{
   margin-top: 50px;
 }
+.margin-top-150{
+  margin-top: 150px;
+}
 .margin-bottom-15{
   margin-bottom: 15px;
 }
@@ -87,6 +99,9 @@ button{
 }
 .padding-top-50{
   padding-top: 50px;
+}
+.padding-top-150{
+  padding-top: 150px;
 }
 .padding-bottom-100{
   padding-bottom: 100px;
@@ -184,9 +199,9 @@ background-image:url(../images/header.jpg) ;
 
 }
 
-/* ID Berufsbild */
+/* ID welche-berufe */
 #welche-berufe{
-  height: 500px;
+
   background-size: cover;
   background-image:url(../images/WelcheBerufe.jpg) ;
 }
@@ -195,9 +210,12 @@ background-image:url(../images/header.jpg) ;
   height: 50px;
 }
 .welche-berufe-list{
-
   display: none;
+  overflow: visible;
+  position: relative;
+
 }
+
 #welche-berufe h3{
 
 }
@@ -239,3 +257,10 @@ background-image:url(../images/header.jpg) ;
 }
 
 /* ID schulischen: Font Awesome*/
+
+
+#studieren{
+  height: 500px;
+  background-size: cover;
+  background-image:url(../images/studieren-1920.jpg) ;
+}

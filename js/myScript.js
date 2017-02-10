@@ -21,5 +21,10 @@ $(document).ready(function(){
 		});
   }
 
+  // sections slidedown
+  $(".welche-berufe-button-01").click(function(){
+      $(".welche-berufe-list").slideToggle();
+    });
+
 
 });
