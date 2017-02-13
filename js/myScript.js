@@ -57,4 +57,39 @@ $(document).ready(function(){
     });
   });
 
+  // Hamburger icon
+  $("#menu-icon").click(function(){
+    $(".menu-side").fadeToggle("slow");
+    $(this).toggleClass("active")
+  });
+
+
+
+//animated scrolling
+	$(".bar a[href^='#']").on('click', function(e) {
+
+// prevent default anchor click behavior
+		e.preventDefault();
+
+// store hash
+		var hash = this.hash;
+
+//set scroll offset
+		var scrollOffset = 0;
+
+// animate
+		$('html, body').animate({
+		   		scrollTop: $(hash).offset().top - scrollOffset
+		   	}, 600, function(){
+
+		  		// when done, add hash to url
+		  		window.location.hash = hash;
+
+		  	history.pushState(null, null, hash);
+		});
+	});
+
+
+
+
 });

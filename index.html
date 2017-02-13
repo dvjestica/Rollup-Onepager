@@ -18,9 +18,9 @@
 <body>
 
   <!-- Hier start die HEADER -->
-  <header>
+  <header id="toppage">
 
-    <div class="navbar">
+    <div id="navbar" class="navbar">
       <div class="container_12">
 
         <!-- Logo -->
@@ -55,24 +55,38 @@
           <div class="bar3"></div>
         </div>
 
-        <!-- Menu Icon  -->
-        <ul class="menu-side ">
-
-          <li class="bar background-green"><a href="#">Berufsbild</a></li>
-          <li class="bar background-green"><a href="#">Was gibt es</a></li>
-          <li class="bar background-green"><a href="#">Welche</a></li>
-          <li class="bar background-green"><a href="#">Schulen</a></li>
-          <li class="bar background-green"><a href="#">Weiterbildung</a></li>
-          <li class="bar background-green"><a href="#">Studieren</a></li>
-          <li class="bar background-green"><a href="#">Links</a></li>
-
-        </ul>
-
       </div><!-- Navbar Container endet hier -->
-
     </div> <!-- Navbar endet hier -->
 
-    <div id="banner-content" class="container_12 padding-top-50">
+    <!-- Menu Icon  -->
+    <div id="menu-icon"class="container text-styles background-green">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- side menu  -->
+    <ul class="menu-side">
+
+      <li class="bar background-green"><a href="#toppage">Home</a></li>
+
+      <li class="bar background-green"><a href="#berufsbild">Berufsbild</a></li>
+
+      <li class="bar background-green"><a href="#welche-berufen">Was gibt es</a></li>
+
+      <li class="bar background-green"><a href="#schulischen">Welche</a></li>
+
+      <li class="bar background-green"><a href="#schule">Schulen</a></li>
+
+      <li class="bar background-green"><a href="#weiterbildung">Weiterbildung</a></li>
+
+      <li class="bar background-green"><a href="#studieren">Studieren</a></li>
+
+      <li class="bar background-green"><a href="#links">Links</a></li>
+
+    </ul>
+
+
+    <div id="banner-content" class="container_16 padding-top-50">
 
       <div class="banner-msg-01 text-center margin-top-150 ">
         <h1 class="margin-auto background-green text-styles text-color-black display-inline-block ">
@@ -86,21 +100,16 @@
           was anderes
         </h1>
       </div>
-
-
-      <div class="text-center banner-button">
-
-          <button class="banner-button-child
-           background-red text-styles text-color-white margin-top-50">
-            <h4>
-              Mehr erfahren
-            </h4>
-          </button>
-
+      <div class="grid_6">
+test
       </div>
-
-    </div>
-    <!-- Navbar endet hier -->
+      <button class="grid_4 banner-button-child margin-top-150
+       background-red text-styles text-color-white">
+        <h4>
+          Mehr erfahren
+        </h4>
+      </button>
+    </div><!-- Navbar endet hier -->
 
   </header>
 
@@ -126,7 +135,7 @@
   </div>
 
   <!-- Hier start die Sektionen ID WELCHE-BERUFE -->
-  <div id="" class="sections">
+  <div id="welche-berufen" class="sections">
 
     <!-- Das ist obener Bereich mit ICONS -->
     <div id="welche-berufe" class="">
@@ -396,7 +405,7 @@
 
     </div>
 
-    <div class="background-green">
+    <div id="schule"class="background-green">
       <div class="container_12">
 
         <!-- Hier start die Grid boxes 01-->
@@ -679,6 +688,9 @@
     </div>
 
   </div>
+
+
+
 
 </body>
 </html>
