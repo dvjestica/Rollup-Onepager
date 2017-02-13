@@ -166,10 +166,11 @@ background-image:url(../images/header.jpg) ;
 }
 #menu-icon:hover, #menu-icon.active{
   width: 145px;
+  
 
 }
-.active{
-
+.active-1{
+  background-color: grey;
 }
 .container {
   position: fixed;

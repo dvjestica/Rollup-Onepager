@@ -63,6 +63,11 @@ $(document).ready(function(){
     $(this).toggleClass("active")
   });
 
+  // curent menu item
+  $(".bar").click(function(){
+    $(".bar").removeClass("active-1");
+    $(this).addClass("active-1")
+  });
 
 
 //animated scrolling
@@ -88,6 +93,7 @@ $(document).ready(function(){
 		  	history.pushState(null, null, hash);
 		});
 	});
+
 
 
 
